@@ -1,0 +1,150 @@
+body {
+	margin: 0;
+	/*background: url(../img/back.jpg);*/
+	background: url(../img/back.png);
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+#chat-wrap {
+	margin: 0 auto;
+	width: 1000px;
+	padding-bottom: 20px;
+	overflow: hidden;
+}
+
+h3 {
+	text-align: center;
+	font-size: 36px;
+	color: #ffffff;
+	text-shadow: -4px 3px 2px #000;
+}
+
+input, textarea, button {
+	outline: none;
+}
+
+#chat {
+	float: left;
+	width: 45%;
+	/*background: rgba(100, 100, 100, 0.23);*/
+	background: url(../img/chatbg.jpg);
+	opacity: 0.99;
+	padding: 20px;
+	box-shadow: 0 0 14px rgba(0,0,0,0.3), inset 0 0 14px rgba(0,0,0,0.3);
+	height: 500px;
+}
+
+#chat-info {
+	float: right;
+	width: 45%;
+}
+
+#chat ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#chat ul li {
+	margin-bottom: 2px;
+}
+
+.form {
+	padding: 60px 20px 20px;
+	background: rgba(100, 100, 100, 0.23);
+	box-shadow: 0 0 14px rgba(0,0,0,0.3), inset 0 0 14px rgba(0,0,0,0.3);
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.delete {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	background: transparent;
+	box-shadow: none;
+	border: none;
+	font-size: 16px;
+	text-shadow: -1px 1px 4px rgba(0,0,0,1);
+	line-height: 16px;
+	height: 20px;
+}
+
+.delete:hover {
+	background: none;
+	color: #ffffff;
+}
+
+input {
+	background: rgba(29, 29, 29, 0.36);
+	height: 24px;
+	padding: 8px;
+	border: none;
+	box-shadow: inset 0 0 11px rgba(13, 13, 13, 0.71);
+	margin-bottom: 20px;
+	color: #C2BEBE;
+}
+
+button {
+	transition: all 0.25s;
+	background: rgba(169, 167, 167, 0.19);
+	padding: 4px;
+	border: 1px solid #3F3E3E;
+	box-shadow: 0 0 11px rgba(13, 13, 13, 0.71);
+	height: 40px;
+	cursor: pointer;
+	color: #BEBEBE;
+}
+
+button:hover {
+	background: rgba(215, 215, 215, 0.29);
+	color: #ffffff;
+}
+
+.save-user {
+	margin: 0 6px;
+}
+
+.color {
+	padding: 4px;
+	height: 32px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.msg {
+	background: rgba(29, 29, 29, 0.36);
+	height: 60px;
+	padding: 8px 8px;
+	border: none;
+	box-shadow: inset 0 0 11px rgba(13, 13, 13, 0.71);
+	margin-bottom: 20px;
+	color: #C2BEBE;
+	resize: none;
+	width: 96%;
+}
+
+.nick {
+	width: 204px;
+}
+
+.buttons {
+	text-align: right;
+}
+
+.send {
+	width: 100px;
+	display: inline-block;
+	margin: 0 8px;
+}
+
+#add-user {
+	width: 200px;
+	margin: 0 auto;
+	display: block;
+}
