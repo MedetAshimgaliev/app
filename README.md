@@ -1,2 +1,2 @@
 # app
-The best chat
+The best chat on backbone.js
